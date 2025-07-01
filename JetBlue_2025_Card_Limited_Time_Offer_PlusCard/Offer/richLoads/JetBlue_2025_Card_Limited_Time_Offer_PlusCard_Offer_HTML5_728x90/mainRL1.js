@@ -25,7 +25,7 @@ function animate() {
   tl.set("#copyFrame1,#copy4", { y:20 });
 
   tl.addLabel('frame1', 0)
-    .to('#copyFrame1', 0.5, { autoAlpha: 1,y:0, ease: Power1.easeInOut }, 'frame1')
+    .to('#copyFrame1', 1, { autoAlpha: 1,y:0, ease: Power1.easeInOut }, 'frame1')
 
   tl.addLabel('frame2', 2)
     .to('#copyFrame1,#Aqcc', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame2+=1')
@@ -33,8 +33,7 @@ function animate() {
 
   tl.addLabel('frame3', 6)
     .to('#frame3', 1, { x:-722, ease: Power1.easeInOut }, 'frame3+=0.5')
-    .to('#shine1', 1.5, { autoAlpha: 1, x:192,y:0 }, 'frame3+=1.5')
-    .to('#shine1', 0.5, { autoAlpha: 0 }, 'frame3+=2.5');
+    .to('#shine1', 1, { autoAlpha: 1, x:251,y:0 }, 'frame3+=1.5')
 
 }
 

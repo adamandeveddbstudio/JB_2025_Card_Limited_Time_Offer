@@ -21,7 +21,7 @@ video {
 #main_container {
   position: absolute;
   background-color: #000064;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -92,6 +92,11 @@ video {
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "ESKlarheitGrotesk BK";
+  src: url("./fonts/ESKlarheitGrotesk-Bk.woff");
+  font-weight: normal;
+}
 
 .w100 {
 
@@ -106,6 +111,11 @@ video {
 .ESKlarheitGroteskSmbd {
 
   font-family: "ESKlarheitGrotesk Smbd";
+}
+
+.ESKlarheitGroteskBK {
+
+  font-family: 'ESKlarheitGrotesk BK';
 }
 
 /*pre styles end*/
@@ -202,20 +212,21 @@ span.star {
 }
 
 .card_animation {
-  top: 114px;
-  left: 8px;
+  top: 115px;
+  left: 9px;
+  width: 143px;
+  height: 92px;
+  overflow: hidden;
 }
 
 .card2 {
-  width: 144px;
+  width: 143px;
   height: auto;
-  top: 269px;
-  left: 8px;
 }
 
 .terms2 {
-  top: 208px;
-  left: 102px;
+  top: 117px;
+  left: 104px;
   font-size: 8px;
   color: #0000aa;
 }
@@ -230,8 +241,8 @@ span.star {
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;
   font-size: 14.6px;
-  top: 42px;
-  left: 19px;
+  top: -50px;
+  left: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -239,16 +250,16 @@ span.star {
 
 
 .logo_blue {
-  top: 191px;
-  left: 21px;
-  width: 118px;
+  top: 98px;
+  left: 29px;
+  width: 103px;
   height: auto;
 }
 
 
 #shine1 {
-  width: 94px;
+  width: 124px;
   height: auto;
-  top: 108px;
-  left: -80px;
+  top: -234px;
+  left: -120px;
 }

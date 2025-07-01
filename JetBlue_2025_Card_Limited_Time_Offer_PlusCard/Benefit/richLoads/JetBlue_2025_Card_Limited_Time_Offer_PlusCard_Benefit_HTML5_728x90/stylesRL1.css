@@ -21,7 +21,7 @@ video {
 #main_container {
   position: absolute;
   background-color: #000064;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -92,6 +92,12 @@ video {
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "ESKlarheitGrotesk BK";
+  src: url("./fonts/ESKlarheitGrotesk-Bk.woff");
+  font-weight: normal;
+}
+
 
 .w100 {
 
@@ -106,6 +112,11 @@ video {
 .ESKlarheitGroteskSmbd {
 
   font-family: "ESKlarheitGrotesk Smbd";
+}
+
+.ESKlarheitGroteskBK {
+
+  font-family: 'ESKlarheitGrotesk BK';
 }
 
 .pinkColor {
@@ -197,19 +208,20 @@ video {
 }
 
 .card_animation {
-  top: 114px;
-  left: 8px;
+  top: -78px;
+  left: 389px;
+  width: 99px;
+  height: 63px;
+  overflow: hidden;
 }
 
 .card2 {
   width: 99px;
   height: auto;
-  top: 9px;
-  left: 388px;
 }
 
 .terms2 {
-  top: -13px;
+  top: -76px;
   left: 460px;
   font-size: 4.3px;
   color: #0000aa;
@@ -225,7 +237,7 @@ video {
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;
   font-size: 10.6px;
-  top: -63px;
+  top: -126px;
   left: 269px;
   display: flex;
   align-items: center;
@@ -234,16 +246,16 @@ video {
 
 
 .logo_blue {
-  top: -93px;
-  left: 592px;
+  top: -156px;
+  left: 594px;
   width: 92px;
   height: auto;
 }
 
 
 #shine1 {
-  width: 528px;
+  width: 728px;
   height: auto;
-  top: 6px;
-  left: 340px;
+  top: -3px;
+  left: -168px;
 }
