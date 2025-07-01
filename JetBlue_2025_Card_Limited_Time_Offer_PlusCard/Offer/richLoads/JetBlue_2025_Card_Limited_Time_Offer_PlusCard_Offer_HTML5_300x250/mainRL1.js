@@ -33,8 +33,7 @@ function animate() {
 
   tl.addLabel('frame3', 8)
     .to('#frame3', 1, { y:-240, ease: Power1.easeInOut }, 'frame3+=0.5')
-    .to('#shine1', 0.5, { autoAlpha: 1}, 'frame3+=1.5')
-    .to('#shine1', 1, { x:235,y:0 }, 'frame3+=1.5');
+    .to('#shine1', 1, { autoAlpha: 1, x:270,y:0 }, 'frame3+=1.5');
 
 }
 

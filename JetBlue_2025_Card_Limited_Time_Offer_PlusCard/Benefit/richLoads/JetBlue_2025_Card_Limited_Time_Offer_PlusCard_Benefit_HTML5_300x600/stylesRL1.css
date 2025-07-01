@@ -21,7 +21,7 @@ video {
 #main_container {
   position: absolute;
   background-color: #000064;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -92,6 +92,11 @@ video {
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "ESKlarheitGrotesk BK";
+  src: url("./fonts/ESKlarheitGrotesk-Bk.woff");
+  font-weight: normal;
+}
 
 .w100 {
 
@@ -106,6 +111,11 @@ video {
 .ESKlarheitGroteskSmbd {
 
   font-family: "ESKlarheitGrotesk Smbd";
+}
+
+.ESKlarheitGroteskBK {
+
+  font-family: 'ESKlarheitGrotesk BK';
 }
 
 .pinkColor {
@@ -248,8 +258,8 @@ video {
 
 
 #shine1 {
-  width: 154px;
+  width: 264px;
   height: auto;
-  top: -109px;
+  top: -246px;
   left: -152px;
 }

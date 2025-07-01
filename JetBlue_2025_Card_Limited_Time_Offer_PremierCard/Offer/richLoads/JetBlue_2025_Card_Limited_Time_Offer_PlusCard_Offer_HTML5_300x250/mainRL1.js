@@ -32,10 +32,11 @@ function animate() {
 
   tl.addLabel('frame3', 4)
     .to('#copy1,#copy2,#copy3', 1, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame3+=0.5')
-    .to('#copyFrame2', 0.5, { autoAlpha: 1,y:-9, ease: Power1.easeInOut }, 'frame3+=1.5')
+    .to('#copyFrame2', 1, { autoAlpha: 1,y:-9, ease: Power1.easeInOut }, 'frame3+=1.5')
+
   tl.addLabel('frame4', 8)
     .to('#frame4', 1, { y:-245, ease: Power1.easeInOut }, 'frame4+=0.5')
-    .to('#shine1', 1, { autoAlpha: 1, x:262,y:0 }, 'frame4+=1.5');
+    .to('#shine1', 1, { autoAlpha: 1, x:285,y:0 }, 'frame4+=1.5');
 
 }
 

@@ -22,21 +22,23 @@ init()
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
   tl.set(["#bgImg"], { rotation: 0.1, });
+  tl.set("#copy1,#copy2", { y:20 });
+  tl.set("#copy3", { y:10 });
 
   tl.addLabel('frame1', 0)
-    .to('#copy1', 1, { autoAlpha: 1,y:-20, ease: Power1.easeInOut }, 'frame1')
+    .to('#copy1', 1, { autoAlpha: 1,y:0, ease: Power1.easeInOut }, 'frame1')
 
   tl.addLabel('frame2', 3)
-    .to('#copy1', 0.5, { autoAlpha: 0,y:-20, ease: Power1.easeInOut }, 'frame2')
-    .to('#copy2', 1, { autoAlpha: 1,y:-37, ease: Power1.easeOutIn }, 'frame2+=0.5')
+    .to('#copy1', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame2')
+    .to('#copy2', 1, { autoAlpha: 1,y:0, ease: Power1.easeOutIn }, 'frame2+=0.5')
 
   tl.addLabel('frame3', 6)
     .to('#copy2', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame3')
-    .to('#copy3', 1, { autoAlpha: 1,y:-19, ease: Power1.easeOutIn }, 'frame3+=0.5')
+    .to('#copy3', 1, { autoAlpha: 1,y:0, ease: Power1.easeOutIn }, 'frame3+=0.5')
 
   tl.addLabel('frame4', 10)
     .to('#frame4', 1, { y:-588, ease: Power1.easeInOut }, 'frame4+=0.5')
-    .to('#shine1', 1, { autoAlpha: 1, x:392,y:0 }, 'frame4+=1.5');
+    .to('#shine1', 1, { autoAlpha: 1, x:472,y:0 }, 'frame4+=1.5');
 
 }
 

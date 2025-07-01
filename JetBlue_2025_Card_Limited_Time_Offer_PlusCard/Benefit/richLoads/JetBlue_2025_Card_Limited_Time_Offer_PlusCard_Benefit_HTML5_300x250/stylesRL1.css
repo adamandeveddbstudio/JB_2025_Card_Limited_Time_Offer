@@ -92,6 +92,11 @@ video {
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "ESKlarheitGrotesk BK";
+  src: url("./fonts/ESKlarheitGrotesk-Bk.woff");
+  font-weight: normal;
+}
 
 .w100 {
 
@@ -106,6 +111,11 @@ video {
 .ESKlarheitGroteskSmbd {
 
   font-family: "ESKlarheitGrotesk Smbd";
+}
+
+.ESKlarheitGroteskBK {
+
+  font-family: 'ESKlarheitGrotesk BK';
 }
 
 /*pre styles end*/
@@ -187,19 +197,20 @@ span.star {
 }
 
 .card_animation {
-  top: 114px;
-  left: 8px;
+  top: 30px;
+  left: 167px;
+  width: 109px;
+  height: 70px;
+  overflow: hidden;
 }
 
 .card2 {
-  width: 108px;
+  width: 109px;
   height: auto;
-  top: 114px;
-  left: 168px;
 }
 
 .terms2 {
-  top: 102px;
+  top: 32px;
   left: 239px;
   font-size: 6px;
   color: #0000aa;
@@ -215,7 +226,7 @@ span.star {
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;
   font-size: 13px;
-  top: 40px;
+  top: -30px;
   left: 24px;
   display: flex;
   align-items: center;
@@ -224,16 +235,17 @@ span.star {
 
 
 .logo_blue {
-  top: 85px;
+  top: 15px;
   left: 213px;
   width: 66px;
   height: auto;
 }
 
 
+
 #shine1 {
-  width: 114px;
+  width: 154px;
   height: auto;
-  top: 90px;
-  left: 90px;
+  top: -36px;
+  left: -152px;
 }

@@ -21,7 +21,7 @@ video {
 #main_container {
   position: absolute;
   background-color: #000351;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -92,6 +92,11 @@ video {
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "ESKlarheitGrotesk BK";
+  src: url("./fonts/ESKlarheitGrotesk-Bk.woff");
+  font-weight: normal;
+}
 
 .w100 {
 
@@ -106,6 +111,11 @@ video {
 .ESKlarheitGroteskSmbd {
 
   font-family: "ESKlarheitGrotesk Smbd";
+}
+
+.ESKlarheitGroteskBK {
+
+  font-family: 'ESKlarheitGrotesk BK';
 }
 
 .blueColor {
@@ -162,7 +172,7 @@ span.star {
 .terms {
   top: 73px;
   left: 470.8px;
-  font-size: 4.3px;
+  font-size: 4.4px;
   color: #ffffff;
 }
 
@@ -285,8 +295,8 @@ span.star2 {
 
 
 #shine1 {
-  width: 174px;
+  width: 728px;
   height: auto;
-  top: -124px;
-  left: -440px;
+  top: -24px;
+  left: -120px;
 }

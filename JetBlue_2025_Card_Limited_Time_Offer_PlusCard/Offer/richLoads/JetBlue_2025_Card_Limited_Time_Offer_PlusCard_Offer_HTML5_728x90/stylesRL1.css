@@ -21,7 +21,7 @@ video {
 #main_container {
   position: absolute;
   background-color: #000064;
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
   overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -92,6 +92,12 @@ video {
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "ESKlarheitGrotesk BK";
+  src: url("./fonts/ESKlarheitGrotesk-Bk.woff");
+  font-weight: normal;
+}
+
 
 .w100 {
 
@@ -106,6 +112,11 @@ video {
 .ESKlarheitGroteskSmbd {
 
   font-family: "ESKlarheitGrotesk Smbd";
+}
+
+.ESKlarheitGroteskBK {
+
+  font-family: 'ESKlarheitGrotesk BK';
 }
 
 .pinkColor {
@@ -163,7 +174,7 @@ span.star {
 .terms {
   top: 73px;
   left: 471px;
-  font-size: 4.3px;
+  font-size: 4.4px;
   color: #0000aa;
 }
 
@@ -219,23 +230,29 @@ span.star1 {
   text-align: center;
 }
 
+.card_animation {
+  top: -77px;
+  left: 465px;
+  width: 99px;
+  height: 63px;
+  overflow: hidden;
+}
+
 .card2 {
   width: 99px;
   height: auto;
-  top: 9px;
-  left: 464px;
 }
 
 .terms2 {
-  top: -14px;
-  left: 536px;
+  top: -76px;
+  left: 537px;
   font-size: 4.3px;
   color: #0000aa;
 }
 
 
 #cta {
-  width: 98px;
+  width: 100px;
   height: 32px;
   background-color: #ff6433;
   border-radius: 3px;
@@ -243,7 +260,7 @@ span.star1 {
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;
   font-size: 12px;
-  top: -64px;
+  top: -126px;
   left: 303px;
   display: flex;
   align-items: center;
@@ -252,16 +269,16 @@ span.star1 {
 
 
 .logo_blue {
-  top: -95px;
-  left: 598px;
+  top: -156px;
+  left: 600px;
   width: 92px;
   height: auto;
 }
 
 
 #shine1 {
-  width: 528px;
+  width: 728px;
   height: auto;
-  top: 6px;
-  left: 340px;
+  top: -3px;
+  left: -168px;
 }

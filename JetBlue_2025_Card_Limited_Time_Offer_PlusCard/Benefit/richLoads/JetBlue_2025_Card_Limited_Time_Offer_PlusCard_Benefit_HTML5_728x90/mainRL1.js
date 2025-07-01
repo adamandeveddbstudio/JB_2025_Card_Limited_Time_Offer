@@ -22,7 +22,7 @@ init()
 function animate() {
   tl.set(["#main_content"], { autoAlpha: 1, force3D: true });
   tl.set(["#bgImg"], { rotation: 0.1, });
-  tl.set('#copy1,#copy2', { y:10 });
+  tl.set('#copy1,#copy2', { y:20 });
 
   tl.addLabel('frame1', 0)
     .to('#copy1', 1, { autoAlpha: 1,y:0, ease: Power1.easeInOut }, 'frame1')
@@ -33,7 +33,7 @@ function animate() {
 
   tl.addLabel('frame3', 6)
     .to('#frame3', 1, { x:-722, ease: Power1.easeInOut }, 'frame3+=0.5')
-    .to('#shine1', 1.5, { autoAlpha: 1, x:145,y:0,roatate:90 }, 'frame3+=1.5');
+    .to('#shine1', 1, { autoAlpha: 1, x:255,y:0,roatate:90 }, 'frame3+=1.5');
 
 }
 
