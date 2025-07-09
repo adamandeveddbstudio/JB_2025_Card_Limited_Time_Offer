@@ -176,6 +176,7 @@ span.star {
   left: 537px;
   font-size: 5.3px;
   color: #ffffff;
+  font-weight: 600;
 }
 
 span.star1 {
@@ -184,7 +185,7 @@ span.star1 {
 
 .copy2 {
   color: #ffffff;
-  top: 17px;
+  top: 19px;
   left: 39px;
   font-size: 21.5px;
   line-height: 23px;
@@ -192,9 +193,10 @@ span.star1 {
 }
 
 .tm {
-  font-size: 11px;
-  top: -2px;
+  font-size: 7px;
+  top: -4px;
   font-weight: 600;
+  left: -2px;
 }
 
 .copy3 {
@@ -252,6 +254,7 @@ span.star1 {
   left: 527px;
   font-size: 5.3px;
   color: #ffffff;
+  font-weight: 600;
 }
 
 

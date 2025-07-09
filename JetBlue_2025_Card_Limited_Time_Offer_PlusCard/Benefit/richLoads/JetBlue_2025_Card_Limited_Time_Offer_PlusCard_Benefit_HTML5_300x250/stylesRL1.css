@@ -151,9 +151,10 @@ span.star {
 
 .terms {
   top: 182px;
-  left: 239px;
+  left: 238px;
   font-size: 6.1px;
   color: #ffffff;
+  font-weight: 600;
 }
 
 .copy2 {
@@ -211,9 +212,10 @@ span.star {
 
 .terms2 {
   top: 54px;
-  left: 241px;
+  left: 240px;
   font-size: 6px;
   color: #0000aa;
+  font-weight: 600;
 }
 
 

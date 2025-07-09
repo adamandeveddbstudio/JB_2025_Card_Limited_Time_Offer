@@ -158,9 +158,10 @@ video {
 
 .terms {
   top: 395px;
-  left: 209px;
+  left: 208px;
   font-size: 10.8px;
   color: #ffffff;
+  font-weight: 600;
 }
 
 .copy2 {
@@ -218,9 +219,10 @@ video {
 
 .terms2 {
   top: 160px;
-  left: 209px;
+  left: 208px;
   font-size: 10.6px;
   color: #0000aa;
+  font-weight: 600;
 }
 
 
