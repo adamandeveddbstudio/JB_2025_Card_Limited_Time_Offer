@@ -35,9 +35,9 @@ function animate() {
     .to('#copy2', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame3')
     .to('#copy3', 1, { autoAlpha: 1,y:0, ease: Power1.easeOutIn }, 'frame3+=0.5')
 
-  // tl.addLabel('frame4', 12)
-  //   .to('#frame4', 1, { y:-588, ease: Power1.easeInOut }, 'frame4+=0.5')
-  //   .to('#shine1', 1, { autoAlpha: 1, x:262,y:0 }, 'frame4+=1.5');
+  tl.addLabel('frame4', 12)
+    .to('#frame4', 1, { y:-588, ease: Power1.easeInOut }, 'frame4+=0.5')
+    .to('#shine1', 1, { autoAlpha: 1, x:262,y:0 }, 'frame4+=1.5');
 
 }
 
