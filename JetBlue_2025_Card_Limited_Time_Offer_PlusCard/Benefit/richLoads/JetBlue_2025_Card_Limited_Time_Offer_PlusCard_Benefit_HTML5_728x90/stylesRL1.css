@@ -145,16 +145,17 @@ video {
 .card1 {
   width: 99px;
   height: auto;
-  top: 9px;
-  left: 395px;
+  top: 10px;
+  left: 396px;
 }
 
 
 .terms {
-  top: 74px;
-  left: 467px;
+  top: 75px;
+  left: 468px;
   font-size: 4.3px;
   color: #ffffff;
+  font-weight: 600;
 }
 
 .copy2 {
@@ -202,7 +203,7 @@ video {
   font-size: 23px;
   color: #ff0889;
   left: -240px;
-  top: -9px;
+  top: -10px;
   line-height: 36px;
   text-align: center;
 }

@@ -28,15 +28,15 @@ function animate() {
   tl.addLabel('frame1', 0)
     .to('#copy1', 1, { autoAlpha: 1,y:0, ease: Power1.easeInOut }, 'frame1')
 
-  tl.addLabel('frame2', 3)
+  tl.addLabel('frame2', 4)
     .to('#copy1', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame2')
     .to('#copy2', 1, { autoAlpha: 1,y:0, ease: Power1.easeOutIn }, 'frame2+=0.5')
 
-  tl.addLabel('frame3', 6)
+  tl.addLabel('frame3', 8)
     .to('#copy2', 0.5, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame3')
     .to('#copy3', 1, { autoAlpha: 1,y:0, ease: Power1.easeOutIn }, 'frame3+=0.5')
 
-  tl.addLabel('frame4', 10)
+  tl.addLabel('frame4', 12)
     .to('#frame4', 1, { y:-587, ease: Power1.easeInOut }, 'frame4+=0.5')
     .to('#shine1', 1, { autoAlpha: 1, x:472,y:0 }, 'frame4+=1.5');
 

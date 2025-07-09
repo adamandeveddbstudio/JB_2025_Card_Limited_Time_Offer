@@ -183,8 +183,8 @@ span.star1 {
 }
 
 .tm {
-  font-size: 5px;
-  top: -1px;
+  font-size: 6px;
+  top: -4px;
 }
 
 .copy3 {
@@ -223,7 +223,7 @@ span.star1 {
 }
 
 .card_animation {
-  top: 35px;
+  top: 65px;
   left: 144px;
   width: 133px;
   height: 84px;
@@ -236,8 +236,8 @@ span.star1 {
 }
 
 .terms2 {
-  top: 40px;
-  left: 239.3px;
+  top: 69px;
+  left: 240.1px;
   font-size: 6.2px;
   color: #ffffff;
 }
@@ -247,12 +247,12 @@ span.star1 {
   width: 107px;
   height: 33px;
   background-color: #1CDAFF;
-  border-radius: 4px;
+  border-radius: 3px;
   color: #0000aa;
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;
   font-size: 13.5px;
-  top: -6px;
+  top: -24px;
   left: 22px;
   display: flex;
   align-items: center;
@@ -262,8 +262,8 @@ span.star1 {
 
 .logo_blue {
   top: 18px;
-  left: 213px;
-  width: 67px;
+  left: 23px;
+  width: 65px;
   height: auto;
 }
 
@@ -271,6 +271,6 @@ span.star1 {
 #shine1 {
   width: 204px;
   height: auto;
-  top: -44px;
+  top: -48px;
   left: -152px;
 }
