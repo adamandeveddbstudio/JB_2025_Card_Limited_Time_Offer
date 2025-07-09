@@ -176,9 +176,10 @@ span.star {
 
 .terms {
   top: 219px;
-  left: 142.6px;
+  left: 141.6px;
   font-size: 6.03px;
   color: #0000aa;
+  font-weight: 600;
 }
 
 span.star1 {
@@ -239,9 +240,10 @@ span.star1 {
 
 .terms2 {
   top: 58px;
-  left: 240px;
+  left: 239px;
   font-size: 6.2px;
   color: #0000aa;
+  font-weight: 600;
 }
 
 

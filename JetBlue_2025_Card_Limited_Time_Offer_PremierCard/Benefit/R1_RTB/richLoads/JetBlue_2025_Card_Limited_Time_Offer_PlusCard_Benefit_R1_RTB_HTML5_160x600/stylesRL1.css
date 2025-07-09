@@ -172,9 +172,10 @@ span.star {
 
 .terms {
   top: 339px;
-  left: 104px;
+  left: 105px;
   font-size: 6.3px;
   color: #000351;
+  font-weight: 600;
 }
 
 span.star1 {
@@ -193,6 +194,11 @@ span.star1 {
 .tm {
   font-size: 7px;
   top: -5px;
+}
+
+.Rsign {
+  font-size: 9px;
+  top: -3px;
 }
 
 .copy3 {
@@ -241,9 +247,10 @@ span.star1 {
 
 .terms2 {
   top: 140px;
-  left: 100.3px;
+  left: 101.3px;
   font-size: 6.2px;
   color: #ffffff;
+  font-weight: 600;
 }
 
 

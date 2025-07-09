@@ -35,9 +35,9 @@ function animate() {
     // .to('#Aqcc', 1, { autoAlpha: 0,ease: Power1.easeInOut }, 'frame3+=0.5')
     .to('#copy1,#copy2,#copy3', 1, { autoAlpha: 0, ease: Power1.easeInOut }, 'frame3+=0.5')
     .to('#copyFrame2', 1, { autoAlpha: 1,y:-40, ease: Power1.easeInOut }, 'frame3+=1.5')
-  // tl.addLabel('frame4', 8)
-  //   .to('#frame4', 1, { y:-588, ease: Power1.easeInOut }, 'frame4+=0.5')
-  //   .to('#shine1', 1, { autoAlpha: 1, x:302,y:0 }, 'frame4+=1.5');
+  tl.addLabel('frame4', 8)
+    .to('#frame4', 1, { y:-588, ease: Power1.easeInOut }, 'frame4+=0.5')
+    .to('#shine1', 1, { autoAlpha: 1, x:302,y:0 }, 'frame4+=1.5');
 
 }
 
