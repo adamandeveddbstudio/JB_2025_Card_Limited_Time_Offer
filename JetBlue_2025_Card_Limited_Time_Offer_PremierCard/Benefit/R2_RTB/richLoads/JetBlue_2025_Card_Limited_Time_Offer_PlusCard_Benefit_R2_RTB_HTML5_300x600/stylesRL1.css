@@ -135,9 +135,9 @@ video {
 }
 
 .logo {
-  top: 508px;
-  left: 28px;
-  width: 110px;
+  top: 523px;
+  left: 30px;
+  width: 113px;
   height: auto;
 }
 
@@ -246,7 +246,7 @@ span.star1 {
   width: 100px;
   height: 33px;
   background-color: #1CDAFF;
-  border-radius: 6px;
+  border-radius: 3px;
   color: #0000aa;
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;

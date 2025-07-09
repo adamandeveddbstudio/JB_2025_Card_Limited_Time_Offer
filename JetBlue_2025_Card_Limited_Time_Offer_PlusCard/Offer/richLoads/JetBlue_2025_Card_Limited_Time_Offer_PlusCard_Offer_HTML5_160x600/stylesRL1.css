@@ -138,51 +138,53 @@ video {
 
 .copy1 {
   color: #0000aa;
-  top: 79px;
-  left: 43px;
-  font-size: 28px;
+  top: 80px;
+  left: 45px;
+  font-size: 27.2px;
   line-height: 27.1px;
   text-align: center;
 }
 
 .copy2 {
   color: #0000aa;
-  top: 126px;
-  left: 4px;
-  font-size: 44.4px;
+  top: 124px;
+  left: 5px;
+  font-size: 44.9px;
   line-height: 68.6px;
   text-align: center;
 }
 
 .copy3 {
   color: #0000aa;
-  top: 191px;
-  left: 24px;
-  font-size: 29px;
-  line-height: 24px;
+  top: 185.7px;
+  left: 25px;
+  font-size: 28.8px;
+  line-height: 23px;
   text-align: center;
 }
 
 span.star {
   font-size: 18px;
+  position: relative;
+  top: 4px;
 }
 
 .card1 {
-  width: 139px;
+  width: 140px;
   height: auto;
-  top: 298px;
+  top: 299px;
   left: 10px;
 }
 
 .terms {
-  top: 391px;
-  left: 9px;
-  font-size: 6.3px;
+  top: 392px;
+  left: 10px;
+  font-size: 6.27px;
   color: #0000aa;
 }
 
 span.star1 {
-  font-size: 7px;
+  font-size: 6px;
 }
 
 .orange_dash {
@@ -196,8 +198,8 @@ span.star1 {
   color: #0000aa;
   top: 56px;
   left: 6px;
-  font-size: 27.1px;
-  line-height: 32.8px;
+  font-size: 27.3px;
+  line-height: 33px;
   text-align: center;
 }
 
@@ -210,38 +212,38 @@ span.star1 {
   font-size: 27px;
   color: #0000aa;
   left: 0px;
-  top: 43px;
-  line-height: 34.7px;
+  top: 44.3px;
+  line-height: 34.2px;
   text-align: center;
 }
 
 .copy6 {
-  font-size: 27px;
+  font-size: 27.4px;
   color: #ff6433;
-  left: -2px;
-  top: 41px;
+  left: 0px;
+  top: 42px;
   line-height: 34px;
   text-align: center;
 }
 
 .card_animation {
-  top: 150px;
+  top: 151px;
   left: 9px;
-  width: 143px;
+  width: 144px;
   height: 92px;
   overflow: hidden;
 }
 
 .card2 {
-  width: 143px;
+  width: 141px;
   height: auto;
 }
 
 
 .terms2 {
-  top: 151px;
-  left: 111px;
-  font-size: 6.5px;
+  top: 152px;
+  left: 112px;
+  font-size: 6.3px;
   color: #0000aa;
 }
 
@@ -255,8 +257,8 @@ span.star1 {
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;
   font-size: 13.3px;
-  top: -23px;
-  left: 28px;
+  top: -21px;
+  left: 27px;
   display: flex;
   align-items: center;
   justify-content: center;

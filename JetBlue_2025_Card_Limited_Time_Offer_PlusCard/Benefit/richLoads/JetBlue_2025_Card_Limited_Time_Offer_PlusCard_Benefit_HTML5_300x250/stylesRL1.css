@@ -158,10 +158,10 @@ span.star {
 
 .copy2 {
   color: #ffffff;
-  top: 19px;
+  top: 18px;
   left: 23px;
-  font-size: 29px;
-  line-height: 33px;
+  font-size: 28.8px;
+  line-height: 33.7px;
   text-align: left;
 }
 
@@ -179,39 +179,39 @@ span.star {
 }
 
 .copy3 {
-  font-size: 27px;
+  font-size: 26.9px;
   color: #0000aa;
-  left: -2px;
-  top: 9px;
+  left: -3.7px;
+  top: 28.4px;
   line-height: 35px;
   text-align: center;
 }
 
 .copy4 {
-  font-size: 27px;
+  font-size: 26.9px;
   color: #ff0889;
-  left: -5px;
-  top: 7px;
+  left: -7px;
+  top: 26.7px;
   line-height: 36px;
   text-align: center;
 }
 
 .card_animation {
-  top: 30px;
-  left: 167px;
-  width: 109px;
-  height: 70px;
+  top: 52px;
+  left: 142px;
+  width: 136px;
+  height: 85px;
   overflow: hidden;
 }
 
 .card2 {
-  width: 109px;
+  width: 135px;
   height: auto;
 }
 
 .terms2 {
-  top: 32px;
-  left: 239px;
+  top: 54px;
+  left: 241px;
   font-size: 6px;
   color: #0000aa;
 }
@@ -226,8 +226,8 @@ span.star {
   font-family: "ESKlarheitGrotesk Smbd";
   text-align: center;
   font-size: 13px;
-  top: -30px;
-  left: 24px;
+  top: -40px;
+  left: 23px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -235,17 +235,17 @@ span.star {
 
 
 .logo_blue {
-  top: 15px;
-  left: 213px;
-  width: 66px;
+  top: -6px;
+  left: 23px;
+  width: 86px;
   height: auto;
 }
 
 
 
 #shine1 {
-  width: 154px;
+  width: 194px;
   height: auto;
-  top: -36px;
-  left: -152px;
+  top: -45px;
+  left: -162px;
 }
